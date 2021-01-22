@@ -1,0 +1,127 @@
+/* Reset Browsers styles  */
+* {
+padding: 0;
+margin: 0;
+}
+/* root page container */
+#main-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Header  */
+header {
+background-color: #cecece;
+width: 951px;
+height: 60px;
+padding-left: 30px;
+padding-top: 30px;
+padding-right: 19px;
+padding-bottom: 30px;
+}
+
+#logo {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+}
+
+#social {
+    float: right;
+    width: 140px;
+    height: 40px;
+    padding: 10px 0px;
+    display: flex;
+}
+
+#social span {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: block;
+    margin-right: 9px;
+    border-radius: 20px;
+}
+
+#social span:first-child {
+    margin-left: 1px;
+}
+
+#social span:last-child {
+    margin-right: 1px;
+}
+
+/* end header */
+
+/* Nav section */
+nav {
+    /* nav top/bottom left/right */
+    margin: 20px 0px;
+    height: 48px;
+    display: flex;
+}
+
+.box {
+    background-color: #979797;  
+    width: 198px;
+    height: 48px;
+    display:inline-block;
+    margin: 0px 1px;
+}
+/* End Nav */
+
+/* Headlines */
+#headlines {
+    height: 191px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+#headlines article{
+    width: 329px;
+    background-color: #cbcbcb;
+    margin-right: 9px;
+}
+
+#headlines article:last-child {
+    margin-right: 0px;
+}
+/* End headlines */
+
+/* Main content */
+main {
+    height: 453px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+#left, #articles, #right {
+    display: inline-block;
+    height:453px;
+
+}
+
+#left {
+    
+    width: 200px;
+    background-color: #c0c0c0;
+}    
+
+#articles {
+    width: 600px;
+    background-color: #979797;
+
+}
+
+#right {
+    width: 200px;
+    background-color:#c0c0c0;
+    box-sizing: border-box;
+}
+/* End main content */
+
+footer {
+    height: 70px;
+    background-color: #6f6f6f;
+}
+
