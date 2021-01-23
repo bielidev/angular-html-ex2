@@ -16,7 +16,7 @@ body {
 }
 /* Header  */
 header {
-background-image: url('./img/header.jpg');
+background-image: url('./img/header.webp');
 background-size: cover;
 width: 951px; 
 height: 60px;
@@ -126,15 +126,15 @@ nav ul {
     color: white;
 }
 #wanda {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./img/headline1.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./img/headline1.webp');
 }
 
 #soul {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./img/headline2.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./img/headline2.webp');
 }
 
 #mandalorian {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./img/headline3.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./img/headline3.webp');
 }
 #headlines article a {
     color: white;
@@ -152,39 +152,76 @@ nav ul {
 
 /* Main content */
 main {
-    height: 453px;
     margin-bottom: 24px;
     display: flex;
 }
 
+
 #left, #articles, #right {
     display: inline-block;
-    height:453px;
 
 }
 
 #left {
-    
     width: 200px;
-    background-color: #c0c0c0;
-}    
+    
+}
+#left hr, #articles hr, #right hr {
+    margin-bottom: 15px;
+}
+
+#left article {
+    text-align: justify;
+    border: 1px solid #686de0;
+    padding: 10px;
+    background-color: rgb(246, 246, 246);
+}
 
 #articles {
     width: 600px;
-    background-color: #979797;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
+#articles article {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#articles article:last-child {
+    margin-bottom: 0px;
+}
+#articles article img {
+    height: 100%;
+
+}
+#articles article div {
+    margin-left: 10px;
+}
+
+#articles article div a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: #686de0;
 }
 
 #right {
     width: 200px;
-    background-color:#c0c0c0;
     box-sizing: border-box;
+}
+
+#right article {
+    margin-bottom: 10px;
 }
 /* End main content */
 
 footer {
     height: 70px;
     text-align: center;
+    margin-top: 24px;
 }
 
 footer p {
